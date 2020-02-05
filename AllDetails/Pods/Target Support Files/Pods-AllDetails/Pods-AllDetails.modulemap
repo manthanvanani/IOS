@@ -1,0 +1,6 @@
+framework module Pods_AllDetails {
+  umbrella header "Pods-AllDetails-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'AllDetails' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AllDetails
+
+	pod 'Firebase/Storage'
+
+  target 'AllDetailsTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'AllDetailsUITests' do
+    # Pods for testing
+  end
+
+end
